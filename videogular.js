@@ -1005,6 +1005,7 @@ angular.module("com.2fdevs.videogular")
                     scope.setControls = function setControls(value) {
                         if (value) {
                             API.mediaElement.attr("controls", value);
+                            API.mediaElement.attr("controlsList", "nodownload");
                         }
                         else {
                             API.mediaElement.removeAttr("controls");
