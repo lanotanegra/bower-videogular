@@ -1,5 +1,5 @@
 {
-  "name": "videogular",
+  "name": "videogular-odilo",
   "version": "1.4.4",
   "main": "./videogular.js",
   "dependencies": {
